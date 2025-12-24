@@ -59,7 +59,7 @@ const Hero = () => {
         <div className="flex flex-col sm:flex-row items-center justify-center gap-4 mb-6 mt-6 sm:mt-8 px-4">
           <button 
             onClick={() => setIsModalOpen(true)}
-            className="bg-white text-black rounded-lg text-sm sm:text-base md:text-lg hover:bg-gray-100 transition-colors whitespace-nowrap flex items-center justify-center w-full sm:w-auto" 
+            className="bg-white text-black rounded-lg text-sm sm:text-base md:text-lg hover:bg-gray-100 transition-colors whitespace-nowrap flex items-center justify-center w-full sm:w-auto px-6 sm:px-8" 
             style={{ height: '48px', maxWidth: '209.9px' }}
           >
             Try free for 7 days
